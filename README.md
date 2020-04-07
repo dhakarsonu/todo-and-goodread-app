@@ -1,7 +1,7 @@
 # todo-and-goodread-app
 Application which have two basic apps.
 
-# Todo Simple App
+# Todo Simple App (/ or /todo route)
    Allow user to add item in todo, and then user can edit and update the todo or completed item.
    Usder can complete todo item, which will move to completed section of view.
    
@@ -12,7 +12,7 @@ Application which have two basic apps.
      1. Should be able to complete the Item
      1. List the completed Items
 
-# Good Reads App
+# Good Reads App (/goodreads route)
   Allow user to search books from goodreads open online store, user can navigate to page with next or previous functionality.
   
   # Features
