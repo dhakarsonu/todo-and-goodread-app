@@ -1,0 +1,139 @@
+.card-book {
+    width: 270px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+    display: inline-grid;
+    border-radius: 5px;
+}
+.card-book > header {
+    height: 50px;
+}
+.top{
+    max-height: 23px;
+    overflow: auto;
+}
+.top >span{
+    margin-left: 5px;
+    font-size: 18px;
+}
+.bottom{
+    margin-top: 5px;
+}
+.bottom >span{
+    margin-left: 5px;
+}
+.bottom >code{
+    margin-left: 10px;
+}
+
+.card-book > main >img{
+    height: 290px;
+    width: 268px;
+}
+
+.card-book > footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.goodreads-wrapper >main{
+    height: calc(100vh - 92px);
+    overflow: auto;
+    width: 100vw;
+}
+
+.goodreads-wrapper >header{
+    height: 50px;
+    border-bottom: 1px solid gray;
+    position: static;
+}
+
+.goodreads-wrapper >header >.left{
+    width: fit-content;
+    position: relative;
+    top: -13px;
+    left: 34%;
+}
+
+.goodreads-wrapper >header >.left >input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.goodreads-wrapper >header >.left >button{
+    height: 30px;
+    border: 1px solid gray;
+    width: 50px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #089cf5c4;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.goodreads-wrapper >header >.right{
+    width: fit-content;
+    float: right;
+    margin-right: 15%;
+    position: relative;
+    top: -41px;
+}
+
+.goodreads-wrapper >header >.right >a{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #089cf5c4;
+}
+.goodreads-wrapper >header >.right >span{
+    margin-left: 10px;
+}
+
+.page-info > span{
+    margin-left: 115px;
+}
+
+.goodreads-wrapper >header >a{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+/* Loader styles */
+
+.loader{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+}
+
+.loader >img {
+    height: 200px;
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+
+/* Empty View Styles */
+
+.empty-view{
+    position: absolute;
+    left: 46%;
+    top: 50%;
+}
+
+.empty-view > span{
+    font-size: 18px;
+    color: #73c0f9b3;
+}

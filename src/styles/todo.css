@@ -1,0 +1,114 @@
+.complete{
+    text-decoration: line-through;
+}
+
+.todo-wrapper > header{
+    position: static;
+    height: 60px;
+    width: 100vw;
+    border-bottom: 1px solid #8080806b;
+}
+
+.todo-wrapper > header > a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 22px;
+    font-size: 18px;
+    left: 10px;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.section >.header >span {
+    margin-left: 10px;
+}
+
+.section.todo {
+    margin-top: 20px;
+}
+
+.section.todo >.main,.section.completed >.main{
+    height: 230px;
+    overflow-y: auto;
+}
+
+.section.completed {
+    margin-top: 20px;
+}
+
+.main >input{
+    width: 300px;
+    height: 37px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-left: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.main >a{
+    margin-left: 10px;
+}
+
+.main >p{
+    color: red;
+    position: relative;
+    top: -13px;
+    left: 10px;
+}
+
+.main >span{
+    color: #808080bf;
+    margin-left: 10px;
+}
+
+.todo-list > label{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 240px;
+    font-family: sans-serif;
+}
+
+.todo-list > p{
+    color: red;
+    position: relative;
+    top: -13px;
+    left: 27px;
+}
+
+.todo-list >input{
+    margin-left: 10px;
+}
+
+.todo-list > .edit-input{
+    width: 283px;
+    height: 37px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-left: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.todo-list >.action-item{
+    margin-left: 2px;
+}
+
+.todo-list >.action-item > a{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.todo-list{
+    border-bottom: 1px solid #80808054;
+    padding-bottom: 18px;
+    padding-top: 10px;
+}
+
