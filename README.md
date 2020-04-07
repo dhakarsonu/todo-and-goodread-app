@@ -21,9 +21,11 @@ Application which have two basic apps.
   
 
 # Technology:
- React, Redux, and others
+   React, Redux, and others
  
  
-# Create_Build : npm run build
+# Create_Build : 
+   npm run build
  
-# Start_App : npm run start
+# Start_App : 
+   npm run start
