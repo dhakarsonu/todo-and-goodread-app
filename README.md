@@ -1,21 +1,21 @@
 # todo-and-goodread-app
 Application which have two basic apps.
 
-1. Todo Simple App
+# Todo Simple App
    Allow user to add item in todo, and then user can edit and update the todo or completed item.
    Usder can complete todo item, which will move to completed section of view.
    
-   #Features
+   # Features
      1. Should be able to add a new Item
      1. List the existing Items (uncompleted)
      1. Should be able to edit and delete the existing Item
      1. Should be able to complete the Item
      1. List the completed Items
 
-1. Good Reads App
+# Good Reads App
   Allow user to search books from goodreads open online store, user can navigate to page with next or previous functionality.
   
-  #Features
+  # Features
      1. Should be able to search the books with name
      1. Interface to list the books with pagination
   
@@ -24,6 +24,6 @@ Application which have two basic apps.
  React, Redux, and others
  
  
- #Create_Build : npm run build
+#Create_Build : npm run build
  
- #Start_App : npm run start
+#Start_App : npm run start
